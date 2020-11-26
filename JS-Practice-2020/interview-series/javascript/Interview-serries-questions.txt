@@ -1,0 +1,57 @@
+
+Q-1 : what all console will print?
+var user = {
+    name: "Vijay",
+    logName: function() {
+      console.log(this.name);
+
+      const changeName = function(newName) {
+        this.name = newName;
+        console.log(this.name)
+      };
+      changeName("Mike");
+
+      console.log(this.name)
+    }
+}
+user.logName();
+
+Q-2 : what will be the output?
+setTimeout(() => {
+  console.log("First console print")
+},113);
+console.log("second console print");
+setTimeout(() => {
+  console.log("Third console print")
+},100);
+
+for(let i=0; i<1000; i++) {
+  if(i === 999) {
+    console.log("Fourth console print")
+  }
+}
+
+
+VIJAY PRATAP SINGH - 317701
+
+Hi Team,
+
+My father is hospitalized today in "Puspanjali Hospital & Research Centre" at Agra, UP.
+I am looking for the support from the team regarding the file processing. below are some details:
+And also attached the patient card.
+
+Patient Name:       Hari Ram
+Hospital Name:      "Puspanjali Hospital & Research Centre" at Agra, UP.
+Patient Member ID:  4025006166
+
+
+
+Mubarak Ansari
+9606073618
+Utkarsh Shukla
+9999647721
+Vikram Singh
+9582821831
+
+9606073618
+9999647721 
